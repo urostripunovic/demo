@@ -12,11 +12,6 @@ public class App {
     }
 
     void run() {
-        // System.out.println("Hello World!");
-        // String input = "";
-        // var number = new ValidationLogger(new PersonNumber(input)).validate();
-        // System.out.println(number);
-
         Scanner scan = new Scanner(System.in);
 
         while (true) {
