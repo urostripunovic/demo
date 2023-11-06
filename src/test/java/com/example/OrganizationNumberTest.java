@@ -59,13 +59,13 @@ public class OrganizationNumberTest {
     }
 
     @Test
-    public void invalidOrgNbrLessExactly20MiddleRightLuhns() {
+    public void validOrgNbrMoreThan20MiddleRightLuhnsRightPrefix() {
         OrganizationNumber onbr = new OrganizationNumber("16519601-6397");
         assertTrue(onbr.validate());
     }
 
     @Test
-    public void invalidOrgNbrLessExactly20MiddleRightLuhnsNoPrefix() {
+    public void validOrgNbrMoreThan20MiddleRightLuhnsNoPrefix() {
         OrganizationNumber onbr = new OrganizationNumber("519601-6397");
         assertTrue(onbr.validate());
     }
